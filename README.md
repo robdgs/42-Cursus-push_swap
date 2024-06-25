@@ -19,6 +19,11 @@ The numbers provided can be positive or negative integers. There must not be any
 ```shell
 ./push_swap 9 0 -217 2147483647 -2147483648
 ```
+You can also provide a string as argv[1]. For example :
+
+```shell
+./push_swap "9 0 -217 2147483647 -2147483648"
+```
 
 If the arguments are valid, the program will output the most efficient list of actions to sort the list.
 
